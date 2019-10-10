@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script|Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Unicorn's Cupcake Catering</title>
+    <!-- dont forget to add a css file and link it here! -->
+  </head>
+
+  <body>
+    <!-- video or image as a header is cool :) -->
+    <header>
+      <div class="hero-background">
+        <ul class="slideshow">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="hero-content">
+        <h1>Unicorn's Cupcake Catering</h1>
+        <h3>We'll bring magic to your office</h3>
+        <a href="#magic" class="cta">GIVE ME MY MAGIC!!</a>
+      </div>
+    </header>
+    <!-- Signup form -->
+
+    <section class="accordion">
+      <!-- Accordion -->
+
+      <article>
+        <h2>Unicorn's Bakery</h2>
+        <div class="article-content">
+          <p>
+            Cupcake ipsum dolor sit amet gummi bears muffin caramels carrot
+            cake. Bear claw marshmallow topping gummies lollipop. Brownie
+            jujubes I love brownie ice cream pudding. Caramels gummi bears
+            muffin jelly chocolate marshmallow jelly beans gummi bears toffee.
+            Soufflé jujubes halvah cupcake liquorice. Pastry bonbon cake. Gummi
+            bears marshmallow cookie caramels tootsie roll lollipop liquorice
+            fruitcake.
+          </p>
+          <div class="article-image"></div>
+        </div>
+      </article>
+      <article>
+        <h2>Our Plans</h2>
+        <div class="article-content">
+          <div class="plan">
+            <h3>Cupcake Happines</h3>
+            <ul>
+              <li>Once per week</li>
+              <li>3 pieces per person</li>
+              <li>Cupcakes/Muffins</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <h3>Sweet Dreams</h3>
+            <ul>
+              <li>3 times per week</li>
+              <li>5 pieces per person</li>
+              <li>Cupcakes/Muffins or Macarons</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <h3>Sweetnes Overload</h3>
+            <ul>
+              <li>5 times per week</li>
+              <li>10 pieces per person</li>
+              <li>Cupcakes/Muffins or Macarons</li>
+            </ul>
+          </div>
+        </div>
+      </article>
+
+      <article id="magic">
+        <div class="article-content">
+          <div class="faq">
+            <h2>FAQ</h2>
+
+            <div class="question">
+              <p>
+                Jelly beans donut sweet roll?
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </p>
+            </div>
+            <div class="answer">
+              <p>
+                Jelly beans donut sweet roll cotton candy ice cream cake powder
+                apple pie toffee. Cake cookie muffin sesame snaps caramels sweet
+                powder.
+              </p>
+            </div>
+
+            <div class="question">
+              <p>
+                Halvah donut sesame snaps?
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </p>
+            </div>
+            <div class="answer">
+              <p>
+                Halvah donut sesame snaps donut lollipop carrot cake bear claw.
+                Lollipop bonbon tiramisu chocolate cake chocolate. Ice cream
+                gummi bears candy.
+              </p>
+            </div>
+
+            <div class="question">
+              <p>
+                Jelly beans liquorice jelly?
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </p>
+            </div>
+            <div class="answer">
+              <p>
+                Jelly beans liquorice jelly beans ice cream. Soufflé sugar plum
+                fruitcake cupcake tart.
+              </p>
+            </div>
+
+            <div class="question">
+              <p>
+                Fruitcake muffin muffin jelly?
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+              </p>
+            </div>
+            <div class="answer">
+              <p>
+                Fruitcake muffin muffin jelly danish donut lemon drops. Soufflé
+                ice cream candy canes.
+              </p>
+            </div>
+          </div>
+          <div class="sign-up">
+            <h2>Sign Up</h2>
+            <form action="https://httpbin.org/anything" method="post">
+              <label for="company-name">Company Name: </label>
+              <input type="text" name="company-name" id="company-name" placeholder="Company Name" />
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" placeholder="e-mail"/>
+              <label for="password">Password: </label>
+              <input type="password" name="password" id="password" placeholder="Password"/>
+              <hr />
+              <label>Choose Your Plan</label>
+              <span
+                ><input type="radio" name="plan" value="plan1" checked />
+                Cupcake Happines</span
+              >
+              <span
+                ><input type="radio" name="plan" value="plan2" /> Sweet
+                Dreams</span
+              >
+              <span
+                ><input type="radio" name="plan" value="plan3" /> Sweetnes
+                Overload</span
+              >
+              <hr />
+              <label>Choose Your Treats</label>
+              <span
+                ><input type="checkbox" name="cupcake" value="cupcake" />
+                Cupcakes</span
+              >
+              <span
+                ><input type="checkbox" name="macarons" value="macarons" />
+                Macarons</span
+              >
+              <button type="submit">GIVE ME MY MAGIC!!</button>
+            </form>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <p>
+        site by <a href="mailto:cislowski.karol@hotmail.com">Karol Cislowski</a>
+      </p>
+      <span>
+        <a href="https://br.freepik.com/fotos-vetores-gratis/fundo"></a>
+          Fundo vetor criado por rawpixel.com - br.freepik.com
+        </a>
+      </span>
+
+      <span>
+        <a target="_blank" href="https://icons8.com/icons/set/unicorn">
+          Unicorn
+        </a>
+        icon by <a target="_blank" href="https://icons8.com"> Icons8 </a>
+      </span>
+    </footer>
+
+    <script src="./js/script2.js" type="text/javascript"></script>
+  </body>
+</html>
